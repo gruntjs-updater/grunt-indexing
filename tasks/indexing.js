@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 
       f.src.filter(function(filepath) {
         console.log(filepath, f.dest);
-        if(filepath != f.dest) {
+        if(filepath !== f.dest) {
 
           var filename = filepath.split('/').pop();
 

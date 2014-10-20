@@ -1,7 +1,7 @@
 {
   "name": "grunt-indexing",
   "description": "Create an index.html page with all files in a folder.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/HouseofFraser/grunt-indexing",
   "author": {
     "name": "House of Fraser",
