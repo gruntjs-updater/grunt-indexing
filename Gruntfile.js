@@ -34,8 +34,8 @@ module.exports = function(grunt) {
         options: {
           layout : 'reference-layout.html'
         },
-        src : ['/Users/denchev/Work/HOF/repo/build/*.html'],
-        dest : '/Users/denchev/Work/HOF/repo/build/reference.html'
+        src : ['*.html'],
+        dest : 'reference.html'
       }
     },
 

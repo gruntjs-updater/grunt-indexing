@@ -2,22 +2,22 @@
   "name": "grunt-indexing",
   "description": "Create an index.html page with all files in a folder.",
   "version": "0.1.0",
-  "homepage": "https://github.com/HouseofFraser/Phoenix",
+  "homepage": "https://github.com/HouseofFraser/grunt-indexing",
   "author": {
     "name": "House of Fraser",
     "email": "avreon@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HouseofFraser/Phoenix.git"
+    "url": "https://github.com/HouseofFraser/grunt-indexing.git"
   },
   "bugs": {
-    "url": "https://github.com/HouseofFraser/Phoenix/issues"
+    "url": "https://github.com/HouseofFraser/grunt-indexing/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/HouseofFraser/Phoenix/blob/master/LICENSE-MIT"
+      "url": "https://github.com/HouseofFraser/grunt-indexing/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
