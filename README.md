@@ -39,48 +39,28 @@ grunt.initConfig({
 
 #### options.layout
 Type: `String`
-Default value: `',  '`
+Default value: 
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+A path to the file which holds your HTML layout you want to use as wrapper for the indexed content. Just make sure to put `{{replace}}` somewhere.
 
 ### Usage Examples
 
 #### Default Options
-In this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`
 
-```js
-grunt.initConfig({
-  indexing: {
-    options: {},
-    files: {
-      'dest/default_options': ['*.html', '!do-not-include.html'],
-    },
-  },
-});
-```
-
-#### Custom Options
-In this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`
+This example will find all *.html files, create a ul-li structure for them, then open the layout file, replace the placeholder and put the content into reference.html destination.
 
 ```js
 grunt.initConfig({
   indexing: {
     options: {
-      separator: ': ',
-      punctuation: ' !!!',
+      layout : 'path/to/your/layout/file.html'
     },
-    files: {
-      'dest/default_options': ['src/testing', 'src/123'],
-    },
+    src: ['path/to/some/*.html'],
+    dest : 'reference.html'
   },
 });
 ```
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
