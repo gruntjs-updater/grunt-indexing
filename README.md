@@ -37,7 +37,7 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.layout
 Type: `String`
 Default value: `',  '`
 
@@ -59,7 +59,7 @@ grunt.initConfig({
   indexing: {
     options: {},
     files: {
-      'dest/default_options': ['src/testing', 'src/123'],
+      'dest/default_options': ['*.html', '!do-not-include.html'],
     },
   },
 });
