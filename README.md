@@ -37,17 +37,11 @@ grunt.initConfig({
 
 ### Options
 
-#### options.separator
+#### options.layout
 Type: `String`
-Default value: `',  '`
+Default value: 
 
-A string value that is used to do something with whatever.
-
-#### options.punctuation
-Type: `String`
-Default value: `'.'`
-
-A string value that is used to do something else with whatever else.
+A path to the file which holds your HTML layout you want to use as wrapper for the indexed content. Just make sure to put `{{replace}}` somewhere.
 
 ### Usage Examples
 
